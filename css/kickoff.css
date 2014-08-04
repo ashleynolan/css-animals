@@ -1939,13 +1939,14 @@ body {
   }
 }
 .bear {
-  left: 50px;
-  top: 250px;
-  height: 140px;
+  top: 80px;
+  left: 590px;
+  height: 120px;
   background-color: #5a3d0d;
 }
 .bear.alt {
-  top: 460px;
+  left: 60px;
+  top: 270px;
   width: 70px;
   height: 70px;
   border-radius: 50% / 45% 45% 35% 35%;
@@ -1985,7 +1986,10 @@ body {
   height: 15px;
   background-color: #d0ba96;
   border-radius: 40%;
-  box-shadow: 100px 0 #d0ba96, 97px 0px 0px 8px #5a3d0d, 3px 0px 0px 8px #5a3d0d, 18px 78px #d0ba96, 18px 78px 0px 6px #5a3d0d, 82px 78px #d0ba96, 82px 78px 0px 6px #5a3d0d;
+  box-shadow: 100px 0 #d0ba96, 97px 0px 0px 8px #5a3d0d, 3px 0px 0px 8px #5a3d0d, 18px 65px #d0ba96, 18px 65px 0px 6px #5a3d0d, 82px 65px #d0ba96, 82px 65px 0px 6px #5a3d0d;
+  -webkit-animation: wave 8s infinite linear;
+     -moz-animation: wave 8s infinite linear;
+          animation: wave 8s infinite linear;
 }
 .bear .face {
   top: 24px;
@@ -2019,16 +2023,16 @@ body {
           transform: rotate(-30deg);
 }
 .bear .features {
-  top: 75px;
-  left: 20px;
-  width: 50px;
-  height: 50px;
+  top: 65px;
+  left: 23px;
+  width: 45px;
+  height: 45px;
   background-color: #d0ba96;
   border-radius: 40%;
 }
 .bear .features:before {
-  top: -87px;
-  left: -9px;
+  top: -77px;
+  left: -12px;
   width: 14px;
   height: 8px;
   background-color: #d0ba96;
@@ -2036,38 +2040,117 @@ body {
   box-shadow: 55px 0 #d0ba96;
 }
 
+@-webkit-keyframes wave {
+  50% {
+    box-shadow: 100px 0 #d0ba96, 97px 0px 0px 8px #5a3d0d, 3px 0px 0px 8px #5a3d0d, 18px 65px #d0ba96, 18px 65px 0px 6px #5a3d0d, 82px 65px #d0ba96, 82px 65px 0px 6px #5a3d0d;
+  }
+
+  55% {
+    box-shadow: 99px -6px #d0ba96, 96px -6px 0px 8px #5a3d0d, 3px 0px 0px 8px #5a3d0d, 18px 65px #d0ba96, 18px 65px 0px 6px #5a3d0d, 82px 65px #d0ba96, 82px 65px 0px 6px #5a3d0d;
+  }
+
+  60% {
+    box-shadow: 100px 0 #d0ba96, 97px 0 0px 8px #5a3d0d, 3px 0px 0px 8px #5a3d0d, 18px 65px #d0ba96, 18px 65px 0px 6px #5a3d0d, 82px 65px #d0ba96, 82px 65px 0px 6px #5a3d0d;
+  }
+
+  65% {
+    box-shadow: 99px 2px #d0ba96, 96px 2px 0px 8px #5a3d0d, 3px 0px 0px 8px #5a3d0d, 18px 65px #d0ba96, 18px 65px 0px 6px #5a3d0d, 82px 65px #d0ba96, 82px 65px 0px 6px #5a3d0d;
+  }
+
+  70% {
+    box-shadow: 100px 0 #d0ba96, 97px 0 0px 8px #5a3d0d, 3px 0px 0px 8px #5a3d0d, 18px 65px #d0ba96, 18px 65px 0px 6px #5a3d0d, 82px 65px #d0ba96, 82px 65px 0px 6px #5a3d0d;
+  }
+}
+
+@-moz-keyframes wave {
+  50% {
+    box-shadow: 100px 0 #d0ba96, 97px 0px 0px 8px #5a3d0d, 3px 0px 0px 8px #5a3d0d, 18px 65px #d0ba96, 18px 65px 0px 6px #5a3d0d, 82px 65px #d0ba96, 82px 65px 0px 6px #5a3d0d;
+  }
+
+  55% {
+    box-shadow: 99px -6px #d0ba96, 96px -6px 0px 8px #5a3d0d, 3px 0px 0px 8px #5a3d0d, 18px 65px #d0ba96, 18px 65px 0px 6px #5a3d0d, 82px 65px #d0ba96, 82px 65px 0px 6px #5a3d0d;
+  }
+
+  60% {
+    box-shadow: 100px 0 #d0ba96, 97px 0 0px 8px #5a3d0d, 3px 0px 0px 8px #5a3d0d, 18px 65px #d0ba96, 18px 65px 0px 6px #5a3d0d, 82px 65px #d0ba96, 82px 65px 0px 6px #5a3d0d;
+  }
+
+  65% {
+    box-shadow: 99px 2px #d0ba96, 96px 2px 0px 8px #5a3d0d, 3px 0px 0px 8px #5a3d0d, 18px 65px #d0ba96, 18px 65px 0px 6px #5a3d0d, 82px 65px #d0ba96, 82px 65px 0px 6px #5a3d0d;
+  }
+
+  70% {
+    box-shadow: 100px 0 #d0ba96, 97px 0 0px 8px #5a3d0d, 3px 0px 0px 8px #5a3d0d, 18px 65px #d0ba96, 18px 65px 0px 6px #5a3d0d, 82px 65px #d0ba96, 82px 65px 0px 6px #5a3d0d;
+  }
+}
+
+@keyframes wave {
+  50% {
+    box-shadow: 100px 0 #d0ba96, 97px 0px 0px 8px #5a3d0d, 3px 0px 0px 8px #5a3d0d, 18px 65px #d0ba96, 18px 65px 0px 6px #5a3d0d, 82px 65px #d0ba96, 82px 65px 0px 6px #5a3d0d;
+  }
+
+  55% {
+    box-shadow: 99px -6px #d0ba96, 96px -6px 0px 8px #5a3d0d, 3px 0px 0px 8px #5a3d0d, 18px 65px #d0ba96, 18px 65px 0px 6px #5a3d0d, 82px 65px #d0ba96, 82px 65px 0px 6px #5a3d0d;
+  }
+
+  60% {
+    box-shadow: 100px 0 #d0ba96, 97px 0 0px 8px #5a3d0d, 3px 0px 0px 8px #5a3d0d, 18px 65px #d0ba96, 18px 65px 0px 6px #5a3d0d, 82px 65px #d0ba96, 82px 65px 0px 6px #5a3d0d;
+  }
+
+  65% {
+    box-shadow: 99px 2px #d0ba96, 96px 2px 0px 8px #5a3d0d, 3px 0px 0px 8px #5a3d0d, 18px 65px #d0ba96, 18px 65px 0px 6px #5a3d0d, 82px 65px #d0ba96, 82px 65px 0px 6px #5a3d0d;
+  }
+
+  70% {
+    box-shadow: 100px 0 #d0ba96, 97px 0 0px 8px #5a3d0d, 3px 0px 0px 8px #5a3d0d, 18px 65px #d0ba96, 18px 65px 0px 6px #5a3d0d, 82px 65px #d0ba96, 82px 65px 0px 6px #5a3d0d;
+  }
+}
 .whale {
-  left: 50px;
-  top: 640px;
+  left: 405px;
+  top: 510px;
   width: 150px;
-  height: 70px;
-  background-color: #677ebf;
-  border-radius: 50% 50% 0 0 / 75%;
-  /*	&:before {
-  	content: '';
-  	position: absolute;
-  	bottom: -15px;
-  	left: 0;
-  	width: 30px;
-  	height: 30px;
-  	background-color: #163bf0;
-  
-  	transform: rotate(45deg);
-  
-  	border-radius: 2px;
-  
-  	box-shadow: 28px -5px #fff,
-  	 // 30px -30px #fff,
-  		//60px -60px #fff,
-  		18px -15px #163bf0,
-  		30px -30px #163bf0,
-  		60px -60px #163bf0;
-  	}*/
+  height: 55px;
+  background-color: #93939f;
+  border-radius: 50% 50% 0 0 / 90%;
+  box-shadow: -59px 0 #f1f1f1, -29px 25px #163bf0, 180px 11px 0 -9px #f1f1f1, 154px 10px 0 -10px #93939f, 75px -23px 0 -5px #f1f1f1, 105px -18px 0 -15px #93939f, 240px -20px 0 -5px #f1f1f1, 210px -18px 0 -15px #93939f, 60px 0px #f1f1f1, 68px 25px #163bf0;
+}
+.whale:before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: -30px;
+  width: 30px;
+  height: 30px;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 48px 0 #93939f, 29px 10px #163bf0, 96px 0 #93939f, 77px 10px #163bf0, 144px 0 #93939f, 125px 10px #163bf0, 237px 0 #f1f1f1, 218px 10px #163bf0, 221px 0 #f1f1f1, 201px -4px #93939f, 194px 0 #93939f, 173px 10px #163bf0;
+}
+.whale:after {
+  top: 32px;
+  left: 40px;
+  width: 5px;
+  height: 4px;
+  background-color: #000;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #fff;
+}
+.whale .face {
+  top: 38px;
+  left: 11px;
+  width: 30px;
+  height: 17px;
+  border-bottom: 3px solid #000;
+  border-left: 5px solid transparent;
+  border-radius: 50%;
+  -webkit-transform: rotate(-6deg);
+     -moz-transform: rotate(-6deg);
+      -ms-transform: rotate(-6deg);
+          transform: rotate(-6deg);
 }
 
 .lion {
   top: 270px;
-  left: 250px;
+  left: 240px;
   width: 70px;
   height: 70px;
   background-color: #df8f2b;
@@ -2125,7 +2208,7 @@ body {
 
 .elephant {
   top: 270px;
-  left: 420px;
+  left: 410px;
   width: 70px;
   height: 70px;
   background-color: #b2ada6;
@@ -2308,7 +2391,7 @@ body {
 }
 .monkey {
   top: 465px;
-  left: 400px;
+  left: 240px;
   width: 62px;
   height: 67px;
   border-radius: 50% / 45% 45% 55% 55%;
@@ -2356,7 +2439,7 @@ body {
 
 .penguin {
   top: 460px;
-  left: 250px;
+  left: 65px;
   width: 55px;
   height: 55px;
   background-color: #1f173a;
